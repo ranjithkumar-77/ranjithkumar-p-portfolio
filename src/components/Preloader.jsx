@@ -21,7 +21,7 @@ function Preloader() {
           transition={{ duration: 1.2, ease: [0.76, 0, 0.24, 1] }}
         >
           <motion.div
-            className="relative text-5xl font-black tracking-tighter md:text-7xl"
+            className="relative whitespace-nowrap text-[clamp(2rem,8vw,4.5rem)] font-black tracking-tighter"
             exit={{ opacity: 0, scale: 0.95, y: -20 }}
             transition={{ duration: 0.4 }}
           >
