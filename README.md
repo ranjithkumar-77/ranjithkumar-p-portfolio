@@ -1,8 +1,8 @@
 # RANJITHKUMAR P — Portfolio
 
-A Java Full Stack Developer portfolio featuring projects, technical skills, and contact information.
+A Java Full Stack Developer portfolio highlighting projects, skills, and experience.
 
-Live site: https://YOUR-SITE-URL/
+Live site: https://portfolio-five-sable-hguyx2wfni.vercel.app/
 
 ## Tech stack
 
@@ -24,7 +24,7 @@ npm run build
 
 ## Environment variables
 
-Set these variables in `.env.local` to enable EmailJS delivery:
+Configure these variables in `.env.local` for EmailJS contact form delivery:
 
 - `VITE_EMAILJS_SERVICE_ID`
 - `VITE_EMAILJS_TEMPLATE_ID`
