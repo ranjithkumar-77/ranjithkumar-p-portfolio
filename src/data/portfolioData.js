@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: 'Ranjithkumar P',
-  brandName: 'Ranjithkumar',
+  brandName: 'Ranjithkumar P',
   title: 'Java Full Stack Developer',
   location: 'Bengaluru, India',
   phone: '',
