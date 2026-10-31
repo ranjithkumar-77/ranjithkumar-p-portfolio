@@ -89,7 +89,7 @@ function About() {
                   <div className="mx-auto mb-2 h-2 w-14 rounded-b-lg bg-black" />
                   <img
                     src={stackImage}
-                    alt={`Illustrated portrait of ${personalInfo.name}`}
+                    alt="RANJITHKUMAR P — Java Full Stack Developer, TAP Academy student"
                     className="h-[calc(100%-1rem)] w-full rounded-xl object-cover object-top"
                   />
                 </div>
