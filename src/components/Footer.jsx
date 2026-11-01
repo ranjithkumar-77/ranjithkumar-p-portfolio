@@ -45,8 +45,8 @@ function Footer() {
         </div>
       </div>
       <div className="overflow-hidden py-20 md:py-24">
-        <h2 className="select-none text-center font-sans text-[18vw] font-bold leading-none tracking-tighter text-[#f4f4f4] lowercase md:text-[16vw]">
-          {personalInfo.brandName.toLowerCase()}
+        <h2 className="select-none whitespace-nowrap text-center font-sans text-[clamp(2rem,10vw,9rem)] font-bold leading-none tracking-tighter text-[#f4f4f4]">
+          {personalInfo.brandName}
         </h2>
       </div>
       <div className="grid grid-cols-1 items-end gap-10 md:grid-cols-3">
