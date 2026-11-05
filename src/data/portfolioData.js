@@ -40,20 +40,37 @@ export const aboutContent = {
 export const technicalSkills = {
   categories: [
     {
-      title: 'Programming',
-      skills: [{ name: 'Core Java' }, { name: 'JavaScript' }, { name: 'SQL' }],
+      title: 'Programming Language',
+      skills: [{ name: 'Core Java' }],
     },
     {
       title: 'Backend',
       skills: [
         { name: 'Spring Boot' },
         { name: 'JDBC' },
-        { name: 'REST APIs' },
+        { name: 'JEE' },
+        { name: 'REST API' },
       ],
     },
     {
-      title: 'Database & Tools',
-      skills: [{ name: 'MySQL' }, { name: 'Git' }, { name: 'Maven' }],
+      title: 'Database',
+      skills: [{ name: 'MySQL' }],
+    },
+    {
+      title: 'Frontend',
+      skills: [{ name: 'HTML' }, { name: 'CSS' }],
+    },
+    {
+      title: 'Core Concepts',
+      skills: [
+        { name: 'OOP' },
+        { name: 'Collections' },
+        { name: 'Exception Handling' },
+      ],
+    },
+    {
+      title: 'Tools',
+      skills: [{ name: 'Git' }, { name: 'GitHub' }],
     },
   ],
 }
