@@ -54,6 +54,14 @@ function Footer() {
           <a href="#contact" className="underline underline-offset-4">
             Contact
           </a>
+          <a
+            href={personalInfo.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-fit underline underline-offset-4"
+          >
+            View Resume
+          </a>
           <p className="text-[9px] text-white/60">{footerContent.copyright}</p>
           <p className="text-[9px] text-white/60">
             Trained at{' '}

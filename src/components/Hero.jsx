@@ -117,7 +117,8 @@ function Hero() {
             {heroContent.ctaResume && (
               <a
                 href={heroContent.ctaResume}
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-full border border-white/50 px-6 py-3 font-bold text-white transition-colors hover:bg-white/15"
               >
                 <svg
